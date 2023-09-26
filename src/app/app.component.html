@@ -2,4 +2,11 @@
 
 <h2>Today date </h2><br>
 {{today | date:'dd/MM/YYY'}}
+
+<!-- custome pipe -->
+<h3>custome pipe <br> seling price: {{selling_price}} profits :{{selling_price | profit: 15}}</h3>
+
+<!-- property binding -->
+<img [src]="imgurl" wodth="300px" height="300px">
+
 <app-details></app-details>

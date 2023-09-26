@@ -14,6 +14,7 @@ import { NotauthorizeComponent } from './notauthorize/notauthorize.component';
 import { SearchComponent } from './search/search.component';
 import { LoaderComponent } from './loader/loader.component';
 import { ModelComponent } from './model/model.component';
+import { profitpipe } from './pipes/profitpipe';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ModelComponent } from './model/model.component';
     NotauthorizeComponent,
     SearchComponent,
     LoaderComponent,
-    ModelComponent
+    ModelComponent,
+    profitpipe
   ],
   imports: [
     BrowserModule,
