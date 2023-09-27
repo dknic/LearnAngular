@@ -8,7 +8,7 @@
 <h3>custome pipe <br> seling price: {{selling_price}} profits :{{selling_price | profit: 15}}</h3>
 
 <!-- property binding -->
-<img [src]="imgurl" wodth="300px" height="300px"> <hr><br>
+<img [src]="imgurl" width="300px" height="300px"> <hr><br>
 
 <button type="button" [attr.area-lable]="buttonlable"> submit</button>
 
@@ -20,4 +20,9 @@
 <!--event binding-->
 <button (click)="settimenow()"> show current time  time </button>
 <h3> {{currenttime | date: "dd/mm/yyyy"}}</h3>
+
+<!--template variable -->
+<input type="text" #color placeholder="input a color">
+<button (click)="setColor(color.value)"> set color to paragraph </button>
+<p [style.color]="pcolor" >this is paragraph</p>
 <app-details></app-details>

@@ -23,6 +23,13 @@ currenttime=new Date();
   settimenow(){
  this.currenttime=new Date();
   }
+pcolor=''
+  setColor(color:string){
+
+    console.log(color);
+    this.pcolor=color;
+
+  }
   
 
 }
