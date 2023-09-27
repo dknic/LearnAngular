@@ -6,30 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngIntro';
+  inputText = 'AngIntro';
 
-  today=new Date();
- // custome pipee
-  selling_price=1000;
-// property binding 
-  imgurl="https://th.bing.com/th/id/OIP.HLuY60jzx5puuKjbqmWRRwHaEK?pid=ImgDet&rs=1";
-  buttonlable="area button lable";
-  //class binding
-  issample="true";
-  // event binding
-
-currenttime=new Date();
-
-  settimenow(){
- this.currenttime=new Date();
-  }
-pcolor=''
-  setColor(color:string){
-
-    console.log(color);
-    this.pcolor=color;
-
-  }
   
 
 }

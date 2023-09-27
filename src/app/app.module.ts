@@ -15,6 +15,7 @@ import { SearchComponent } from './search/search.component';
 import { LoaderComponent } from './loader/loader.component';
 import { ModelComponent } from './model/model.component';
 import { profitpipe } from './pipes/profitpipe';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { profitpipe } from './pipes/profitpipe';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
