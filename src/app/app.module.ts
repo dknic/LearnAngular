@@ -16,6 +16,7 @@ import { LoaderComponent } from './loader/loader.component';
 import { ModelComponent } from './model/model.component';
 import { profitpipe } from './pipes/profitpipe';
 import { FormsModule } from '@angular/forms';
+import { DetailsActorsComponent } from './details-actors/details-actors.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { FormsModule } from '@angular/forms';
     SearchComponent,
     LoaderComponent,
     ModelComponent,
-    profitpipe
+    profitpipe,
+    DetailsActorsComponent
   ],
   imports: [
     BrowserModule,
